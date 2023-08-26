@@ -245,3 +245,62 @@ input {
     height: 40px;
     width: 40px;
 }
+
+/* Default styles */
+
+/* Your initial CSS code here */
+
+/* Media Queries */
+
+/* Small screens (mobile devices) */
+@media screen and (max-width: 767px) {
+    body {
+        margin: 0;
+        padding: 20px;
+    }
+    
+    .container {
+        width: 100%;
+        border-radius: 0;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    /* ... Adjust other element styles for small screens ... */
+}
+
+/* Medium screens (tablets) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        padding: 40px;
+    }
+    
+    .container {
+        max-width: 80%;
+    }
+    
+    h1 {
+        font-size: 32px;
+    }
+    
+    /* ... Adjust other element styles for medium screens ... */
+}
+
+/* Large screens (desktops) */
+@media screen and (min-width: 1024px) {
+    body {
+        padding: 60px;
+    }
+    
+    .container {
+        max-width: 60%;
+    }
+    
+    h1 {
+        font-size: 48px;
+    }
+    
+    /* ... Adjust other element styles for large screens ... */
+}
